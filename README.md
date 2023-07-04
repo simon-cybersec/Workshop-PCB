@@ -2,6 +2,9 @@
 A nice little PCB for a soldering workshop. It has a mikrocontroller, OLED-Display, button, LED and some SMD parts.  
 
 # The parts
+
+The SMD parts are of the size 0805.  
+#### Capacitors
 | Part | Value |
 |------|-------|
 | C1   | 10n   |
@@ -13,6 +16,7 @@ A nice little PCB for a soldering workshop. It has a mikrocontroller, OLED-Displ
 | C7   | 100n  |
 | C8   | 100n  |  
 
+#### Resistors
 | Part | Value |
 |------|-------|
 | R1   | 3k    |
