@@ -1,7 +1,9 @@
 # Workshop-PCB
 
 A nice little PCB for a soldering workshop I've done in the past. It has a mikrocontroller, a little OLED-display, a button, a LED and some SMD parts. \
-When the button is pressed the display shows a text and the LED blinks, both for a time duration of ten minutes. The PCB is powered by a CR2032 coin cell battery.
+When the button is pressed the display shows a text and the LED blinks, both for a time duration of ten minutes. The PCB is powered by a CR2032 coin cell battery.  
+
+<img src="./images/pcbfinished.jpg" alt="image of the PCB" width="400"/>
 
 # The PCB design
 
@@ -14,10 +16,8 @@ The PCB is designed in order to be challenging but also to be fun to solder. The
 
  - Button debouncing is done in software in order to keep the PCB simple and because the workshop time was limited.  
 
-
-![image of the PCB](./images/topandbottom_notfilled.png)
-
-
+<img src="./images/topandbottom_notfilled.png" alt="image of the PCB" width="410"/>  
+  
 # The parts
 
 - Mikrocontroller \
@@ -65,5 +65,9 @@ The PCB is designed in order to be challenging but also to be fun to solder. The
 | R3   | 2k    |
 | R4   | 200   |
 
+# Eagle files
+The files are located in the folder _eagle-files_.  
 
 
+# Note
+Also have a look at my blog [simon-cybersec.github.io](https://simon-cybersec.github.io) which is all about embedded systems, cybersecurity and other crazy stuff ;)
