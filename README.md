@@ -66,8 +66,10 @@ The PCB is designed in order to be challenging but also to be fun to solder. The
 | R4   | 200   |
 
 # Eagle files
-The files are located in the folder _eagle-files_.  
+The files are located in the folder "_eagle-files_".  
 
+# How to flash the uC
+In order to flash the uC the _serial wire debug_ (SWD) protocol is used. The corresponding pins are layouted to the PCBs pinheader. Have a look in the eagle-files. I used a NUCLEO development board from ST which can also be used to flash an external mikrocontroller.  
 
 # Note
 Also have a look at my blog [simon-cybersec.github.io](https://simon-cybersec.github.io) which is all about embedded systems, cybersecurity and other crazy stuff ;)
